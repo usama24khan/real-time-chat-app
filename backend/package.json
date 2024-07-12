@@ -6,6 +6,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usama24khan/real-time-chat-app.git"
+  },
   "author": "usama",
   "license": "ISC",
   "description": "",
