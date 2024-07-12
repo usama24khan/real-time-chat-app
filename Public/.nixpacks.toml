@@ -1,0 +1,14 @@
+[build]
+  builder = "nixpacks"
+
+[packages]
+  install = [
+    "nodejs",
+    "npm"
+  ]
+
+[commands.build]
+  run = "npm install"
+
+[commands.start]
+  run = "npm start"
